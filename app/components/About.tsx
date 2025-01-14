@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div>
       <p>
-        Hey, I'm Daniel! I'm currently an engineer at{" "}
+        Hey, I&apos;m Daniel! I&apos;m currently an engineer at{" "}
         <Link
           href="https://about.google/"
           cssID="google"
