@@ -1,0 +1,58 @@
+.google {
+    font-weight: bold;
+    font-family: Google Sans, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: #4285f4;
+    /* Blue underline */
+}
+
+.google:hover {
+    background-color: #f1f3f4;
+    /* Light hover background */
+    border-radius: 4px;
+    /* Optional: Add border radius on hover */
+    color: #4285f4;
+    /* Blue text on hover */
+    text-decoration: none;
+    /* Remove underline on hover */
+}
+
+.google .g {
+    color: #4285f4;
+    /* Blue */
+}
+
+.google .o1 {
+    color: #ea4335;
+    /* Red */
+}
+
+.google .o2 {
+    color: #fbbc05;
+    /* Yellow */
+}
+
+.google .g2 {
+    color: #34a853;
+    /* Green */
+}
+
+.google .l {
+    color: #4285f4;
+    /* Blue */
+}
+
+.google .e {
+    color: #ea4335;
+    /* Red */
+}
+
+.google:hover .g,
+.google:hover .o1,
+.google:hover .o2,
+.google:hover .g2,
+.google:hover .l,
+.google:hover .e {
+    color: #4285f4;
+    /* Change text color to blue on hover */
+}

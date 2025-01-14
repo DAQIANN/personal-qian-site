@@ -1,0 +1,36 @@
+.social-icons {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    flex-wrap: wrap; 
+    display: inline-block;
+    flex-direction: column;
+}
+
+.social-icon-light {
+    color: var(--white) !important;
+}
+
+.social-icon-light:hover {
+    color: var(--light-secondary) !important;
+}
+
+.social-icon-dark {
+    color: var(--icon-main) !important;
+}
+
+.social-icon-dark:hover {
+    color: var(--icon-secondary) !important;
+}
+
+/* Can't use flex and gap on the FaIcons */
+#github {
+    padding-left: 20px;
+    padding-right: 10px
+}
+
+#linkedin {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
