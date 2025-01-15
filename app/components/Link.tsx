@@ -25,8 +25,8 @@ export default function Link({
   href,
   linkType,
 }: Props): React.ReactElement {
-  const tooltipRef = useRef(null);
-  const mouse = useMouse(tooltipRef, { enterDelay: 0, leaveDelay: 0 });
+    const tooltipRef = useRef<HTMLElement>(null);
+    const mouse = useMouse(tooltipRef, { enterDelay: 0, leaveDelay: 0 });
 
   const linkRef = useRef<HTMLAnchorElement>(null);
   const [x, setX] = useState(0);
