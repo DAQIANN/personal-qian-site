@@ -13,7 +13,7 @@ export default function About() {
         alt="Daniel"
       />
 
-      <div className="items-center justify-right">
+      <div className="flex flex-col items-center justify-center">
         <h2>Hey, I&apos;m Daniel!</h2>
         <p>A software engineer</p>
         <p>Based in the Bay Area</p>
@@ -24,7 +24,7 @@ export default function About() {
   const description = (
     <>
       <p>
-        I&apos;m currently an engineer at{" "}
+        I&apos;m currently a software engineer at{" "}
         <Link
           href="https://about.google"
           cssID="google"
