@@ -1,0 +1,35 @@
+.about-section {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Vertically center items */
+    text-align: center;
+    /* Align text within each flex item */
+    gap: 2rem;
+    /* Space between the image and text */
+    padding: 2rem;
+    /* Add padding around the section */
+    flex-direction: row;
+    /* Arrange items side by side */
+}
+
+.about-text-container {
+    flex: 1;
+    /* Allow the text container to grow */
+    text-align: left;
+    /* Align text to the left */
+}
+
+.about-text-container h2 {
+    font-size: 1.5rem;
+    /* Adjust heading size */
+    margin-bottom: 0.5rem;
+    /* Add spacing below the heading */
+}
+
+.about-text-container p {
+    font-size: 1rem;
+    /* Adjust paragraph size */
+    margin: 0.25rem 0;
+    /* Add spacing between paragraphs */
+}

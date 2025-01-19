@@ -56,3 +56,15 @@
     color: #4285f4;
     /* Change text color to blue on hover */
 }
+
+.uiuccs {
+    border-bottom: 2px solid #ff4e00;
+    color: #ffa366;
+}
+
+.uiuccs:hover {
+    background-color: #001f3f;
+    border-bottom: none;
+    border-radius: 4px;
+    color: #ffd1a1;
+}
