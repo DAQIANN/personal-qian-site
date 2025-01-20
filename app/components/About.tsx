@@ -12,56 +12,20 @@ export default function About() {
         src={DanielQian}
         alt="Daniel"
       />
-
       <div className="flex flex-col items-center justify-center">
-        <h2>Hey, I&apos;m Daniel!</h2>
         <p>A software engineer</p>
         <p>Based in the Bay Area</p>
       </div>
     </div>
   );
 
-  const description = (
-    <>
-      <p>
-        I&apos;m currently a software engineer at{" "}
-        <Link
-          href="https://about.google"
-          cssID="google"
-          linkType={LinkType.STRING}
-        >
-          <span className={styles.google}>
-            <span className={styles.g}>G</span>
-            <span className={styles.o1}>o</span>
-            <span className={styles.o2}>o</span>
-            <span className={styles.g2}>g</span>
-            <span className={styles.l}>l</span>
-            <span className={styles.e}>e</span>
-          </span>{" "}
-        </Link>{" "}
-        working on Cloud SQL.
-      </p>
-      <p>
-        I graduated from{" "}
-        <Link
-          href="https://cs.illinois.edu"
-          cssID="uiuc-cs"
-          linkType={LinkType.STRING}
-        >
-          <span className={styles.uiuccs}>UIUC</span>
-        </Link>{" "}
-        studying Mathematics and Computer Science with a Minor in Statistics.
-      </p>
-    </>
-  );
-
   return (
     <div className="about-root">
       {header}
       <hr />
-      <div className="centered about-text-container">
+      {/* <div className="centered about-text-container">
         {description}
-      </div>
+      </div> */}
       {/* <div className="centered about-text-container">
                 {history}
             </div> */}
