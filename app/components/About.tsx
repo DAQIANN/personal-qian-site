@@ -1,6 +1,3 @@
-import styles from "../../styles/Bio.module.css";
-import Link from "./Link";
-import { LinkType } from "./types";
 import DanielQian from "../../public/danielqian.png";
 import Image from "@/node_modules/next/image";
 
